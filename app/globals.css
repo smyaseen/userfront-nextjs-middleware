@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #fff;
+  background: radial-gradient(hsla(332, 96%, 38%, 0.25), hsla(276, 62%, 27%, 0.25)), 100% 100% url("https://www.transparenttextures.com/patterns/checkered-pattern.png") repeat, #131a38;
+}
