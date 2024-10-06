@@ -15,6 +15,7 @@ export default function RootLayout({
           <UserfrontProvider
             tenantId={process.env.NEXT_PUBLIC_USERFRONT_WORKSPACE_ID}
             loginRedirect="/dashboard"
+            loginUrl="/login"
           >
             <Header />
             {children}

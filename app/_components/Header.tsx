@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header>
       <nav className="flex justify-between items-center">
-        <Link href="/" className="text-lg font-bold">
+        <Link href="/home" className="text-lg font-bold">
           Home
         </Link>
         <div className="flex items-center gap-4 md:gap-8">
